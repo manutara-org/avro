@@ -239,7 +239,7 @@ pub type Documentation = Option<String>;
 /// Represents the aliases for Named Schema
 pub type Aliases = Option<Vec<Alias>>;
 /// Represents Schema lookup within a schema env
-pub(crate) type Names = HashMap<Name, Schema>;
+pub type Names = HashMap<Name, Schema>;
 /// Represents Schema lookup within a schema
 pub(crate) type NamesRef<'a> = HashMap<Name, &'a Schema>;
 /// Represents the namespace for Named Schema
